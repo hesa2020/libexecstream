@@ -2,7 +2,7 @@
 if(LIBEXECSTREAM_SHARED)
     set(libtype SHARED)
 else()
-    set(libtype)
+    set(libtype STATIC)
 endif()
 
 find_package(Threads REQUIRED)
